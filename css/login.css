@@ -1,0 +1,40 @@
+*{
+    margin: 0 auto;
+    max-width: 100%;
+    background-color: lavender;
+    width: 98%;
+}
+
+.photo img{
+    float:right;
+    margin-right: 0px;
+     height:550px;
+     width:500px;
+     padding:2.6rem; 
+ }
+.heading{
+    font-family: "Raleway";
+    font-size: 50px;  
+    padding:200px 0px 0px 80px ;
+}
+.h2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    color:darkslategrey;
+    padding:0px 0px 0px 80px ;
+}
+.block{
+
+    height: 109px;
+    width: 620px;
+    background-color: lightblue;
+    margin: 2px 0px 0px 700px;
+}
+
+.main p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    color:darkslategrey;
+    padding:0px 0px 0px 80px ;
+
+}

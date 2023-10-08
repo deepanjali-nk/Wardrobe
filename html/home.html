@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/home.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Labrada:wght@100&family=Mulish:wght@200&family=Open+Sans&family=Quicksand&family=Raleway:wght@100;300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</head>
+<body>
+<!-----------------------Navbar----------------->
+    <nav class="navbar navbar-expand-lg custom-navbar">
+        <div class="container-fluid ms-5 mt-2">
+          <a class="navbar-brand" href="#">Wardrobe</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active-link" aria-current="page" href="home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Offers</a>
+              </li>
+          <div class="btn-group">
+            <button type="button" class="btn">Icons</button>
+            <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+              <span class="visually-hidden"></span>
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">men</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Separated link</a></li>
+            </ul>
+          </div>
+          </div>
+          <div class="icons">
+             <i class="bi bi-search"></i>
+             <i class="bi bi-person-fill"></i>
+             <i class="bi bi-cart-fill"></i>
+          </div>
+          </nav>
+<!----------------Home------------>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="../images/women1.png" class="d-block custom" alt="...">
+              <div class="text">
+                <h1 class="label">OUR ALL-TIME FAVOURITES</h1>
+                <h2 class="head">Trendy Tops and Blouses</h1>
+                <p class="tail">Stay ahead of the fashion curve with our collection of stylish tops and blouses.</p>
+                <button class="explore">Explore Collections</button>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="../images/men1.png"  class="d-block custom1" alt="...">
+              <div class="text">
+                <h1 class="label">FALL JACKETS</h1>
+                <h2 class="head">Outerwear and Jackets</h1>
+                <p class="tail">Stay warm and fashionable during the colder months with our range of outerwear and jackets.</p>
+                <button class="explore">Shop Now</button>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="../images/s.png" class="d-block custom-margin" alt="...">
+              <div class="text">
+                <h1 class="label">ACCESSORIES</h1>
+                <h2 class="head">Handbags</h1>
+                <p class="tail">Complete your look with our range of accessories, including handbags, scarves, belts, and jewelry.</p>
+                <button class="explore">Discover</button>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+  
+        <div class="divider">
+          <div class="image-container ">
+            <img src="../images/men2.jpg" alt="Men" height="690px" width="500px">
+            <div class="image-caption">Men</div>
+          </div>
+          <div class="image-container ">
+            <img src="../images/women6.jpg" alt="Women" height="690px" width="500px">
+            <div class="image-caption">Women</div>
+          </div>
+        </div>
+   <!--------------Services------------->     
+       <section id="feature" class="py-5">
+          <div class="container-1">
+            <div class="services">
+              <h1 class="big">SERVICES</h1>
+              <p class="small text-center pb-2 "> WE WANT YOU TO EXPRESS YOURSELF</p>
+            </div>
+            <div class="row flex-row-reverse gy-5">
+      
+              <div class="col-lg-6 d-flex justify-content-center align-items-center">
+                <img src="../images/raising.png" class="img-fluid mx-auto d-block" alt="Feature">
+              </div>
+              
+              <div class="col-lg-6">
+                <div class="card feature-card mb-3 py-2">
+                  <div class="row g-0">
+                    <div class="col-md-3 d-flex justify-content-center align-items-center">
+                      <img src="../images/find-fit.png" class="img-fluid feature-card-image pt-3 pt-md-0" alt="Find the Perfect Fit">
+                    </div>
+                    <div class="col-md-9">
+                      <div class="card-body">
+                        <h5 class="card-title  feature-card-title text-center text-md-start">Best Price</h5>
+                        <p class="card-text text-center text-md-start">We guarantee the lowest prices on all our products.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="card feature-card mb-3 py-2">
+                  <div class="row g-0">
+                    <div class="col-md-3 d-flex justify-content-center align-items-center">
+                      <img src="../images/free-exchange.png" class="img-fluid feature-card-image pt-3 pt-md-0" alt="Free Exchanges">
+                    </div>
+                    <div class="col-md-9">
+                      <div class="card-body">
+                        <h5 class="card-title feature-card-title text-center text-md-start">Free Exchanges</h5>
+                        <p class="card-text text-center text-md-start">One of the many reasons you can shop with peace of mind.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="card feature-card mb-3 py-2">
+                  <div class="row g-0">
+                    <div class="col-md-3 d-flex justify-content-center align-items-center">
+                      <img src="../images/contact-seller.png" class="img-fluid feature-card-image pt-3 pt-md-0" alt="Contact Our Seller">
+                    </div>
+                    <div class="col-md-9">
+                      <div class="card-body d-flex justify-content-center flex-column">
+                        <h5 class="card-title feature-card-title text-center text-md-start">Contact Our Seller</h5>
+                        <p class="card-text text-center text-md-start">They are here to help you. That's quite literally what we pay them for.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      <!-- End Feature-->
+      
+       <!-- special products -->
+    <section id = "special" class = "py-5">
+      <div class = "container">
+          <div class = "title text-center py-5">
+              <p class = "position-relative d-inline-block ">SPECIAL SELECTION</p>
+          </div>
+
+          <div class = "special-list row g-0">
+              <div class = "col-md-6 col-lg-4 col-xl-3 p-2">
+                  <div class = "special-img position-relative overflow-hidden">
+                      <img src = "../images/special_product_1.jpg" class = "w-100">
+                      <span class = "position-absolute d-flex align-items-center justify-content-center text-primary fs-4">
+                          <i class = "fas fa-heart"></i>
+                      </span>
+                  </div>
+                  <div class = "text-center">
+                      <p class = "text-capitalize mt-3 mb-1">gray shirt</p>
+                      <span class = "fw-bold d-block">$ 45.50</span>
+                      <a href = "#" class = "btn btn-primary mt-3">Add to Cart</a>
+                  </div>
+              </div>
+
+              <div class = "col-md-6 col-lg-4 col-xl-3 p-2">
+                  <div class = "special-img position-relative overflow-hidden">
+                      <img src ="../images/special_product_2.jpg" class = "w-100">
+                      <span class = "position-absolute d-flex align-items-center justify-content-center text-primary fs-4">
+                          <i class = "fas fa-heart"></i>
+                      </span>
+                  </div>
+                  <div class = "text-center">
+                      <p class = "text-capitalize mt-3 mb-1">gray shirt</p>
+                      <span class = "fw-bold d-block">$ 45.50</span>
+                      <a href = "#" class = "btn btn-primary mt-3">Add to Cart</a>
+                  </div>
+              </div>
+
+              <div class = "col-md-6 col-lg-4 col-xl-3 p-2">
+                  <div class = "special-img position-relative overflow-hidden">
+                      <img src = "../images/special_product_3.jpg" class = "w-100">
+                      <span class = "position-absolute d-flex align-items-center justify-content-center text-primary fs-4">
+                          <i class = "fas fa-heart"></i>
+                      </span>
+                  </div>
+                  <div class = "text-center">
+                      <p class = "text-capitalize mt-3 mb-1">gray shirt</p>
+                      <span class = "fw-bold d-block">$ 45.50</span>
+                      <a href = "#" class = "btn btn-primary mt-3">Add to Cart</a>
+                  </div>
+              </div>
+
+              <div class = "col-md-6 col-lg-4 col-xl-3 p-2">
+                  <div class = "special-img position-relative overflow-hidden">
+                      <img src = "../images/special_product_4.jpg" class = "w-100">
+                      <span class = "position-absolute d-flex align-items-center justify-content-center text-primary fs-4">
+                          <i class = "fas fa-heart"></i>
+                      </span>
+                  </div>
+                  <div class = "text-center">
+                      <p class = "text-capitalize mt-3 mb-1">gray shirt</p>
+                      <span class = "fw-bold d-block">$ 45.50</span>
+                      <a href = "#" class = "btn btn-primary mt-3">Add to Cart</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+      <!-- footer -->
+      <footer class = "bg-white ms-5">
+        <div class = "container-4">
+            <div class = "row text-black g-4">
+                <div class = "col-md-6 col-lg-3">
+                    <a class = "text-uppercase text-decoration-none brand text-black" href = "index.html">Attire</a>
+                    <p class = "text-white text-muted mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum mollitia quisquam veniam odit cupiditate, ullam aut voluptas velit dolor ipsam?</p>
+                </div>
+
+                <div class = "col-md-6 col-lg-3">
+                    <h5 class = "fw-light">Links</h5>
+                    <ul class = "list-unstyled">
+                        <li class = "my-3">
+                            <a href = "#" class = "text-white text-decoration-none text-muted">
+                                <i class = "fas fa-chevron-right me-1"></i> Home
+                            </a>
+                        </li>
+                        <li class = "my-3">
+                            <a href = "#" class = "text-white text-decoration-none text-muted">
+                                <i class = "fas fa-chevron-right me-1"></i> Collection
+                            </a>
+                        </li>
+                        <li class = "my-3">
+                            <a href = "#" class = "text-white text-decoration-none text-muted">
+                                <i class = "fas fa-chevron-right me-1"></i> Blogs
+                            </a>
+                        </li>
+                        <li class = "my-3">
+                            <a href = "#" class = "text-white text-decoration-none text-muted">
+                                <i class = "fas fa-chevron-right me-1"></i> About Us
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class = "col-md-6 col-lg-3">
+                    <h5 class = "fw-light mb-3">Contact Us</h5>
+                    <div class = "d-flex justify-content-start align-items-start my-2 text-muted">
+                        <span class = "me-3">
+                            <i class = "fas fa-map-marked-alt"></i>
+                        </span>
+                        <span class = "fw-light">
+                            Albert Street, New York, AS 756, United States of America
+                        </span>
+                    </div>
+                    <div class = "d-flex justify-content-start align-items-start my-2 text-muted">
+                        <span class = "me-3">
+                            <i class = "fas fa-envelope"></i>
+                        </span>
+                        <span class = "fw-light">
+                            attire.support@gmail.com
+                        </span>
+                    </div>
+                    <div class = "d-flex justify-content-start align-items-start my-2 text-muted">
+                        <span class = "me-3">
+                            <i class = "fas fa-phone-alt"></i>
+                        </span>
+                        <span class = "fw-light">
+                            +9786 6776 236
+                        </span>
+                    </div>
+                </div>
+
+                <div class = "col-md-6 col-lg-3">
+                    <h5 class = "fw-light mb-3">Follow Us</h5>
+                    <div>
+                        <ul class = "list-unstyled d-flex">
+                            <li>
+                                <a href = "#" class = "text-white text-decoration-none text-muted fs-4 me-4">
+                                    <i class = "fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href = "#" class = "text-white text-decoration-none text-muted fs-4 me-4">
+                                    <i class = "fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href = "#" class = "text-white text-decoration-none text-muted fs-4 me-4">
+                                    <i class = "fab fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href = "#" class = "text-white text-decoration-none text-muted fs-4 me-4">
+                                    <i class = "fab fa-pinterest"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer> -->
+    <!-- end of footer
+</body>
+</html>
+

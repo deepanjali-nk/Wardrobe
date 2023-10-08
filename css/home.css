@@ -1,0 +1,126 @@
+body{
+    overflow-x: hidden;
+}
+*{
+    font-family:'Raleway';
+}
+.collapse li{
+    padding: 13px;
+}
+#carouselExampleCaptions{
+    background-color:rgb(252, 228, 247);
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    height:680px;
+    width:100%;
+}
+.custom{
+    margin-left:48%;
+}
+.custom-margin{
+    margin-left:630px;
+    height: 600px;
+    width: 600px;
+}
+.custom1{
+    margin-left:600px ;
+}
+.icons{
+    margin-right:90px;
+}
+.icons i{
+    padding: 10px;
+}
+.text{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    width: 600px;
+    /* margin:0px 0px 0px 100px; */
+}
+.head{
+    font-family: 'Playfair Display', serif;
+    font-size: 70px;
+    font-weight:600;
+}
+.tail{
+    color:rgb(51, 41, 41);
+    font-size:20px ;
+    padding:10px 0px 20px 0px;
+}
+.explore{
+    background-color:rgb(122, 105, 105);
+    color: white;
+    border: 1px solid grey;
+    border-radius: 10px;
+    height: 40px;
+}
+.explore:hover{
+    background-color: rgb(187, 169, 169);
+}
+
+.divider{
+    display: flex;
+    position:relative;
+    margin-top:700px;
+    margin-left:13%;
+}
+.divider img{
+    padding:6px;
+    
+}
+.label{
+    font-size: 25px;
+    color: rgb(172, 150, 31);
+}
+.image-container:hover{
+    transform: scale(0.9); /* Zoom in by 10% on hover */ 
+     cursor: pointer; 
+}
+.image-caption {
+    position: absolute;
+    top:40%;
+    left:35%; 
+    height: 690px;
+    width:500px ;
+    font-size: 65px;
+    color: #fff;
+    padding: 5px 10px;
+ }
+ .container-1{
+    position:absolute;
+    top:2450px;
+    left: 10%;
+ }
+ .big{
+    font-size: 100px;
+    text-align: center;
+    color: rgb(219, 215, 215);
+ }
+ .title{
+    font-size:100px;
+    color: rgb(219, 215, 215);
+ }
+.special-img span{
+    top: 20px;
+    right: 20px;
+}
+.special-list .btn{
+    padding: 8px 20px!important;
+    background-color:rgb(170, 169, 169);
+    border: none;
+}
+.special-list span i{
+    color: rgb(238, 111, 189);
+}
+.special-img img{
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.special-img:hover img{
+    -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+            transform: scale(1.2);
+}
